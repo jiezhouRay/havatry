@@ -1,18 +1,22 @@
 package com.jiezhou.threadtry.model1.consumer;
 
-import com.jiezhou.threadtry.model1.provider.Cooks;
+import com.jiezhou.threadtry.model1.Meals;
 
 public class Assistants implements Runnable {
 
+    private Meals meals;
+
+    public Assistants(Meals meals) {
+        this.meals = meals;
+    }
+
     @Override
     public void run() {
-        Cooks cooks = new Cooks();
-        while (cooks.isGetMeals()) {
-            picksUpMeals();
-        }
+        System.out.println("=======picksUpMeals======");
+        picksUpMeals();
     }
 
     private void picksUpMeals() {
-        System.out.println("当前线程:" + Thread.currentThread().getName() + "已取餐");
+         meals.getMeals();
     }
 }

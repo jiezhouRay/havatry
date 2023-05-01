@@ -7,4 +7,8 @@ package com.jiezhou.threadtry.model1;
  *   必须要有两个前提。
  *   第一：必须要在被synchronized关键字控制的同步代码块中，才能调用这些方法。
  *   第二，调用者必须为你当前的锁对象。
+ *
+ * 2.wait()被唤醒后，会继续执行wait()后的程序
+ *
+ * 3 wait 要使用同步锁 （锁最好是共享资源）
  */

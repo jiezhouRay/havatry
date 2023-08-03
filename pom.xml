@@ -8,6 +8,9 @@
     <modules>
         <module>algorithmstry</module>
         <module>threadtry</module>
+        <module>tomcattry</module>
+        <module>simpleMybatis</module>
+        <module>mybatisTest</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

@@ -1,0 +1,11 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jiezhou</groupId>
+        <artifactId>havatry</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>com.jiezhou······</groupId>
+    <artifactId>mybatisTest</artifactId>
+    <version>1.0</version>
+</project>

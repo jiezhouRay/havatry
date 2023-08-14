@@ -5,7 +5,18 @@
         <artifactId>havatry</artifactId>
         <version>1.0</version>
     </parent>
-    <groupId>com.jiezhou······</groupId>
     <artifactId>mybatisTest</artifactId>
-    <version>1.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jiezhou</groupId>
+            <artifactId>simpleMybatis</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 </project>

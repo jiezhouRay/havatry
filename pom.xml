@@ -11,6 +11,7 @@
         <module>tomcattry</module>
         <module>simpleMybatis</module>
         <module>mybatisTest</module>
+        <module>designpatternstry</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
